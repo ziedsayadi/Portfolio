@@ -452,6 +452,13 @@ input,select,button{
   left: 0;
   top: 0;
 }
+body.dark .about .about-content .skills .skill-items .progress .skill-percent{
+  position: absolute;
+  right: 0;
+  top: -25px;
+  font-size: small;
+  color: white;
+}
 .about .about-content .skills .skill-items .progress .skill-percent {
   position: absolute;
   right: 0;
@@ -827,6 +834,46 @@ transition: all 0.3s ease;
   text-decoration: none;
   font-weight: 500;
 }
+#status.success{
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+  padding: 10px;
+  background-color: #35f073;
+  color: #d4d4e3;
+  border-radius: 10px;
+  max-width: 60%;
+  animation: status 3s ease forwards;
+  transition: all 0.4s ease;
+
+}
+#status.error{
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+  padding: 10px;
+  background-color: #f23f3f;
+  color: #d4d4e3;
+  border-radius: 10px;
+  max-width: 60%;
+  animation: status 3s ease forwards;
+  transition: all 0.4s ease;
+}
+@keyframes status{
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  80%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  100%{
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
 /*********************Contact Section**************************/
 .contact .contact-item{
   flex:0 0 33%;

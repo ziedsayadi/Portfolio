@@ -25,6 +25,7 @@ bodySkin.forEach(ele=>{
     })
     
 })
+
 switcher.addEventListener('click',()=>{
     document.querySelector('.style-switcher').classList.toggle("open")
 })
