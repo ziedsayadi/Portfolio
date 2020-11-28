@@ -840,7 +840,7 @@ transition: all 0.3s ease;
   margin-top: 5%;
   padding: 10px;
   background-color: #35f073;
-  color: #d4d4e3;
+  color: #fff;
   border-radius: 10px;
   max-width: 60%;
   animation: status 3s ease forwards;
